@@ -1,0 +1,24 @@
+{
+  "id": "autocomplete-valid",
+  "evaluate": "autocomplete-valid-evaluate",
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "the autocomplete attribute is correctly formatted",
+      "fail": "the autocomplete attribute is incorrectly formatted",
+      "incomplete": "the autocomplete attribute has a non-standard value. Check whether any standard value could be used instead."
+    }
+  },
+  "options": {
+    "stateTerms": [
+      "none",
+      "false",
+      "true",
+      "disabled",
+      "enabled",
+      "undefined",
+      "null"
+    ],
+    "ignoredValues": ["text", "pronouns", "gender", "message", "content"]
+  }
+}

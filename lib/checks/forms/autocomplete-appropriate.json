@@ -1,0 +1,12 @@
+{
+  "id": "autocomplete-appropriate",
+  "evaluate": "autocomplete-appropriate-evaluate",
+  "deprecated": true,
+  "metadata": {
+    "impact": "serious",
+    "messages": {
+      "pass": "The autocomplete value is on an appropriate element",
+      "fail": "The autocomplete value is inappropriate for this type of input"
+    }
+  }
+}
